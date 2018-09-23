@@ -2,7 +2,7 @@
   "name": "management",
   "version": "1.0.0",
   "description": "商城管理系统",
-  "author": "胡开麟",
+  "author": "hkl",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
