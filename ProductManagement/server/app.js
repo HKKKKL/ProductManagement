@@ -38,7 +38,7 @@ let storage = multer.diskStorage({
 let upload = multer({storage: storage});
 
 app.all('*', function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "http://101.132.168.38");
+    res.header("Access-Control-Allow-Origin", "http://127.0.0.1");
     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
     res.header('Access-Control-Allow-Headers', 'Content-Type');
