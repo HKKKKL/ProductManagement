@@ -131,5 +131,5 @@ app.post('/update', function (req, res) {
     })
 });
 app.listen(8001,function () {
-    console.log('服务器运行在 http://101.132.168.38:8001');
+    console.log('服务器运行在 8001端口');
 });
